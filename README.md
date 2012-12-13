@@ -2,7 +2,8 @@ node-easysettings
 =================
 
 simple module to manage setting file/storage file for simple program 
-
+# install
+npm install easysettings
 # example
 Suppose it's test.js
 ```javascript
