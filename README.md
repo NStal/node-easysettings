@@ -18,7 +18,7 @@ var es = new EasySettings("/etc/myconfig.json");
 //default is useful when your script running at the first time
 es.setDefalt({name:"settings"});
 //if first-time running,default settings will be used 
-//if not set,{} will used
+//if not set,{} will be used
 var settings = es.load();
 console.log(settings);
 //return value of EasySettings.load is the reference of the settings json object from easy settings
