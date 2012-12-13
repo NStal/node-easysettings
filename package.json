@@ -1,0 +1,19 @@
+{
+    "author": "NStal",
+    "name": "easysettings",
+    "description": "simple module to manage setting file/storage file for simple program ",
+    "version": "0.0.1",
+    "repository": {
+	"type": "git",
+	"url": "https://github.com/NStal/node-easysettings"
+    },
+    "keywords":["settings","config","util"],
+    "engines": {
+	"node": "*"
+    },
+    "directories": {
+	"lib": "./lib"
+	,"test":"./test"
+    },
+    "main":"./lib/easysettings.js"
+}
